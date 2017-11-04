@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_add_file"
+            android:title="Thêm báo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_edit_file"
+            android:title="Thêm chuyên mục" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_edit_paper"
+            android:title="Sửa báo đã chọn" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_font"
+            android:title="Chọn kích cỡ chữ" />
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item android:title="Báo khác">
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="News"   />
+            <item
+                android:id="@+id/nav_send"
+                android:title="FoxNews" />
+
+            <item
+                android:id="@+id/nav_send1"
+                android:title="Kênh 14" />
+
+            <item
+                android:id="@+id/nav_send2"
+                android:title="Báo Bóng Đá" />
+
+            <item
+                android:id="@+id/nav_send3"
+                android:title="GenK" />
+        </menu>
+    </item>
+    </group>
+
+</menu>

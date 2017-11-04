@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gen_k"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.edu.vnuk.navigationdrawer.GenK">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:text="Microsoft Q1/2018: điện toán đám mây bùng nổ, Surface tăng trưởng, thu về tới 1 tỷ USD, mảng điện thoại lỗ tiếp 315 triệu USD"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:src="@drawable/mycrosoft"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="          Báo cáo tài chính sáng nay của Microsoft đã minh chứng rõ ràng cho dấu mốc ấy: doanh thu đạt 24,5 tỷ USD, lợi nhuận 6,6 tỷ USD, tăng từ 20,4 tỷ và 4,7 tỷ USD cùng kỳ năm ngoái. Mảng kinh doanh điện toám đám mây của công ty đạt 6,9 tỷ USD, tăng trưởng 14% theo năm. Số liệu cụ thể như sau:"
+        android:id="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

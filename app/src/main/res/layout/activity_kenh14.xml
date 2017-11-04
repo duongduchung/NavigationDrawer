@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kenh14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.edu.vnuk.navigationdrawer.Kenh14">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text=" Hé lộ hình ảnh Huyền My chen vào đám đông thí sinh để chúc mừng Tân Hoa hậu phút đăng quang nhưng không thành"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:fontFamily="serif"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:src="@drawable/news14"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sau hơn 1 tháng khởi động, Miss Grand International 2017 đã chính thức khép lại với ngôi vị cao nhất thuộc về đại diện đến từ Peru. Dù được kì vọng rất nhiều nhưng Huyền My lại chỉ dừng chân ở Top 10.
+         Điều gây chú ý là NTK Sỹ Hoàng cho biết rất thất vọng sau khi chương trình kết thúc, người đẹp sinh năm 1995 bật khóc nức nở và không tới chúc mừng "
+        android:id="@+id/textView3"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="235dp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

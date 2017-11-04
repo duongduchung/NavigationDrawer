@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fox_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.edu.vnuk.navigationdrawer.FoxNews">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Fox News Poll: Positive views of NFL down 18 points since 2013"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/imageView"
+        android:src="@drawable/foxsport"
+        android:layout_marginBottom="163dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The National Football League is taking some hits these days.  A new Fox News Poll finds that since 2013, the league’s favorable rating has dropped 18 points.
+        Today, 46 percent of voters have a positive view of the N.F.L. while 41 percent view it negatively.  Four years ago (the last time the question was asked), 64 percent had a positive view of the league and 19 percent were critical."
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

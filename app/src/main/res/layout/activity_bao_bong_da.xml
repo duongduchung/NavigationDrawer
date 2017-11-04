@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bao_bong_da"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.edu.vnuk.navigationdrawer.BaoBongDa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        android:text="Kevin De Bruyne: Từ thằng nhóc ương bướng đến một ngôi sao"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/debruyne"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="        Cũng giống như nhiều danh thủ khác, tuổi thơ của De Bruyne tất nhiên gắn liền với trái bóng. Phòng ngủ của cậu nhóc tại Drongen đầy ắp những thứ thuộc về Liverpool. Ông nội là người đứng đằng sau lòng ái mộ Liverpool của cậu nhóc. Ga trải giường đậm dấu ấn Liverpool, mặc những bộ quần áo có phù hiệu Liverpool, chiếc áo đấu in tên Michael Owen sờn chỉ là một phần trong bộ sưu tập đáng tự hào của Kevin.
+ "
+
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

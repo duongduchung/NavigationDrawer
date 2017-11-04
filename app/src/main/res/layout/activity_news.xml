@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.edu.vnuk.navigationdrawer.News">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/sportnews"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="283dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Pro Kabaddi: Patna Pirates Beat Bengal Warriors 47-44, Enter Final"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:text="Patna Pirates sealed their place in the final of Pro Kabaddi Season 5 as they beat Bengal Warriors 47-44 on Thursday.
+Pardeep Narwal was the star of the show once again and scored 23 raid points. Patna Pirates defence had a solid game at the back and scored 10 tackle points.
+ For Bengal Warriors, Maninder Singh scored 17 points but didn’t  get enough support from his defenders as they scored just six tackle points. Bengal Warriors scored more raid points...."
+        android:textColor="#000000"
+        android:textSize="15dp"/>
+</RelativeLayout>
