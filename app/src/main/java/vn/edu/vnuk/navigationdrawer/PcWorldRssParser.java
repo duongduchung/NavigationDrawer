@@ -16,6 +16,7 @@ import java.util.List;
 
 public class PcWorldRssParser {
 
+
     private static final String TAG_TITLE = "title";
     private static final String TAG_LINK = "link";
     private static final String TAG_RSS = "rss";
@@ -82,4 +83,6 @@ public class PcWorldRssParser {
             parser.nextTag();
         }
         return result;
-    }}
+    }
+}
+

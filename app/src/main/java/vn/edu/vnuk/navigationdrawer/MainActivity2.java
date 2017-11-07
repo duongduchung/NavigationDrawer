@@ -27,4 +27,6 @@ public class MainActivity2 extends FragmentActivity {
         transaction.add(R.id.fragment_container, fragment);
         transaction.commit();
     }
+
+
 }

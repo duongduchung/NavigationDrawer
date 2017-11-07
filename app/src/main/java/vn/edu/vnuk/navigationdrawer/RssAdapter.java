@@ -1,6 +1,7 @@
 package vn.edu.vnuk.navigationdrawer;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -20,6 +21,7 @@ public class RssAdapter extends BaseAdapter {
     public RssAdapter(Context context, List<RssItem> items) {
         this.items = items;
         this.context = context;
+        Log.d("Hung", ""+items);
     }
 
     @Override

@@ -92,10 +92,12 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-            RssFragment rssFragment = new RssFragment();
-            android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction()
-                    .replace(R.id.content_main,rssFragment).commit();
+//            RssFragment rssFragment = new RssFragment();
+//            android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
+//            manager.beginTransaction()
+//                    .replace(R.id.fragment_container,rssFragment).commit();
+            Intent newIntent = new Intent(MainActivity.this,MainActivity2.class);
+            startActivity(newIntent);
 
         } else if (id == R.id.nav_send) {
             Intent news = new Intent(MainActivity.this,FoxNews.class);

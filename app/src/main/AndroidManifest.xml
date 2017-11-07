@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="vn.edu.vnuk.navigationdrawer">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -26,7 +26,7 @@
         <activity android:name=".Kenh14" />
         <activity android:name=".BaoBongDa" />
         <activity android:name=".GenK"></activity>
-
+        <activity android:name=".MainActivity2"></activity>
         <service android:name=".RssService" />
     </application>
 

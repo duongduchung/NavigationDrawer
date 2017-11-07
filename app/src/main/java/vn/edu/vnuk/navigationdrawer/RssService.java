@@ -15,7 +15,7 @@ import java.util.List;
 
 public class RssService extends IntentService {
 
-    private static final String RSS_LINK = "http://kenh14.vn";
+    private static final String RSS_LINK = "https://vnexpress.net/rss/the-thao.rss";
     public static final String ITEMS = "items";
     public static final String ACTION_RSS_PARSED = "com.simplerssreader.ACTION_RSS_PARSED";
 
